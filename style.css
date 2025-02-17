@@ -215,7 +215,7 @@ section#head {
     grid-template-rows: 1fr 1fr 3fr;
     grid-template-columns: 1fr 1fr;
     padding: 6rem;   
-    background-image:url(c:/Users/User/Downloads/low-poly-grid-haikei2.svg);
+    background-image:url(svg/low-poly-grid-haikei2.svg);
     background-size: cover;
     opacity:90%;
     overflow: hidden;
@@ -267,7 +267,7 @@ section#head {
     height: 100vh;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    background-image:url(c:/Users/User/Downloads/low-poly-grid-haikeiB.svg);
+    background-image:url(svg/low-poly-grid-haikeiB.svg);
     background-size: cover;
  
 }
@@ -470,7 +470,7 @@ section#head {
     grid-template-rows: repeat(10, 1fr);
     padding: 3rem;
     padding-bottom: 0;
-    background-image:url(<svg id="visual" viewBox="0 0 1300 600" width="1300" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><g stroke-width="1" stroke-linejoin="bevel"><path d="M678 238L469.3 370L686 389Z" fill="#050505" stroke="#050505"></path><path d="M678 238L399.3 184L469.3 370Z" fill="#0b0b0b" stroke="#0b0b0b"></path><path d="M250.7 367L474.3 600L469.3 370Z" fill="#0a0a0a" stroke="#0a0a0a"></path><path d="M469.3 370L474.3 600L686 389Z" fill="#040404" stroke="#040404"></path><path d="M474.3 600L693 600L686 389Z" fill="#070707" stroke="#070707"></path><path d="M693 600L880.7 424L686 389Z" fill="#020202" stroke="#020202"></path><path d="M686 389L880.7 424L678 238Z" fill="#060606" stroke="#060606"></path><path d="M910.7 160L676 0L678 238Z" fill="#070707" stroke="#070707"></path><path d="M678 238L676 0L399.3 184Z" fill="#020202" stroke="#020202"></path><path d="M399.3 184L250.7 367L469.3 370Z" fill="#0b0b0b" stroke="#0b0b0b"></path><path d="M676 0L435.3 0L399.3 184Z" fill="#0b0b0b" stroke="#0b0b0b"></path><path d="M399.3 184L239.7 205L250.7 367Z" fill="#0a0a0a" stroke="#0a0a0a"></path><path d="M203.7 0L239.7 205L399.3 184Z" fill="#050505" stroke="#050505"></path><path d="M880.7 424L910.7 160L678 238Z" fill="#080808" stroke="#080808"></path><path d="M693 600L901.7 600L880.7 424Z" fill="#000000" stroke="#000000"></path><path d="M880.7 424L1041.3 387L910.7 160Z" fill="#000000" stroke="#000000"></path><path d="M910.7 160L885.7 0L676 0Z" fill="#010101" stroke="#010101"></path><path d="M1046.3 600L1041.3 387L880.7 424Z" fill="#0c0c0c" stroke="#0c0c0c"></path><path d="M910.7 160L1083.3 0L885.7 0Z" fill="#010101" stroke="#010101"></path><path d="M0 422L178.7 600L250.7 367Z" fill="#0c0c0c" stroke="#0c0c0c"></path><path d="M250.7 367L178.7 600L474.3 600Z" fill="#080808" stroke="#080808"></path><path d="M1041.3 387L1054.3 174L910.7 160Z" fill="#0c0c0c" stroke="#0c0c0c"></path><path d="M435.3 0L203.7 0L399.3 184Z" fill="#060606" stroke="#060606"></path><path d="M0 177L0 422L250.7 367Z" fill="#0a0a0a" stroke="#0a0a0a"></path><path d="M901.7 600L1046.3 600L880.7 424Z" fill="#0c0c0c" stroke="#0c0c0c"></path><path d="M1300 0L1083.3 0L1054.3 174Z" fill="#020202" stroke="#020202"></path><path d="M0 177L250.7 367L239.7 205Z" fill="#0a0a0a" stroke="#0a0a0a"></path><path d="M1300 232L1054.3 174L1041.3 387Z" fill="#080808" stroke="#080808"></path><path d="M1054.3 174L1083.3 0L910.7 160Z" fill="#000000" stroke="#000000"></path><path d="M203.7 0L0 177L239.7 205Z" fill="#010101" stroke="#010101"></path><path d="M0 422L0 600L178.7 600Z" fill="#050505" stroke="#050505"></path><path d="M203.7 0L0 0L0 177Z" fill="#010101" stroke="#010101"></path><path d="M1046.3 600L1300 386L1041.3 387Z" fill="#020202" stroke="#020202"></path><path d="M1300 386L1300 232L1041.3 387Z" fill="#0b0b0b" stroke="#0b0b0b"></path><path d="M1046.3 600L1300 600L1300 386Z" fill="#0a0a0a" stroke="#0a0a0a"></path><path d="M1300 232L1300 0L1054.3 174Z" fill="#000000" stroke="#000000"></path></g></svg>);
+    background-image:url(svg/low-poly-grid-haikeiB.svg);
     background-size: cover;
 }
 
@@ -596,7 +596,7 @@ section#head {
     grid-template-rows: repeat(6, 1fr);
     padding: 3rem;
     padding-top: 0;
-    background-image:url(c:/Users/User/Downloads/low-poly-grid-haikeiB.svg);
+    background-image:url(svg/low-poly-grid-haikeiB.svg);
     background-size: cover;
  
 }
@@ -671,7 +671,7 @@ section#head {
     height: 50vh;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr ;
-    background-image: url(c:/Users/User/Downloads/low-poly-grid-haikei2.svg);
+    background-image: url(svg/low-poly-grid-haikei1.svg);
     background-size: cover;
     opacity:90%;
 }
@@ -778,7 +778,7 @@ p{
     height: 25vh;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
-    background-image: url(c:/Users/User/Downloads/low-poly-grid-haikei2.svg);
+    background-image: url(svg/low-poly-grid-haikei.svg);
     background-size: cover;
     opacity:90%;
 }
@@ -856,7 +856,7 @@ p{
     max-width: 50em;
     margin: .5rem auto;
     text-align: center;
-    background-image:url(c:/Users/User/Downloads/low-poly-grid-haikeiB.svg);
+    background-image:url(svg/low-poly-grid-haikeiB.svg);
     background-size: cover;
 }
 
@@ -930,7 +930,7 @@ color: aliceblue;
 
 /* Footer */
 footer {
-    background-image:url(c:/Users/User/Downloads/low-poly-grid-haikeiB.svg);
+    background-image:url(svg/low-poly-grid-haikeiB.svg);
     background-size: cover;
     padding: 2rem;
     color: white;
