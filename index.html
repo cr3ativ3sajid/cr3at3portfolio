@@ -35,34 +35,51 @@
     <!-- Include AOS Styles in <head> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
+
+
 <body>
-   <section class="l1" id="la1">
-<!--       <img src="svg/low-poly-grid-haikei.svg" alt="Description of image"> -->
-      <header>
-         <div class="navbar">
-            <div class="logo"><a href="">CR3AT!V3 M3</a></div>
-            <ul class="links">
-               <li><a href="#con">About Me</a></li>
-               <li><a href="#con2">My work</a></li>
-               <li><a href="#serve">Service</a></li>
-               <li><a href="indexcv.html">Resume</a></li>
-
-
-            </ul>
-            <a href="#contact" class="action_btn">Contact me</a>
-            <div class="toggle_btn">
-               <i class="fa-solid fa-bars"></i>
+    <header>
+        <div class="navbar">
+           <div class="logo"><a href="">CR3AT!V3 M3</a></div>
+           <ul class="links">
+              <li><a href="#con">About Me</a></li>
+              <li><a href="#con2">My work</a></li>
+              <li><a href="#serve">Service</a></li>
+              <li><a href="indexcv.html">Resume</a></li>
+           </ul>
+           <a href="#contact" class="action_btn">Contact me</a>
+           <div class="toggle_btn">
+              <i class="fa-solid fa-bars"></i>
+           </div>
+        </div>
+        <div class="dropdown ">
+           <li><a href="#con">About Me</a></li>
+           <li><a href="#con2">My work</a></li>
+           <li><a href="#serve">Service</a></li>
+           <li><a href="cv.html">Resume</a></li>
+           <li><a href="#contact" class="action_btn">Contact me</a></li>
+        </div>
+    </header>
+    <!-- <header>
+        <nav class="navbar" id="navbar">
+            <h1 data-aos="fade-zoom">CR3ATIVE M3</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                    <li><a href="#about" data-aos="fade-right" data-aos-delay="200"  onclick="closeMenu()">About Me</a></li>
+                    <li><a href="#work" data-aos="fade-right" data-aos-delay="500"  onclick="closeMenu()">My work</a></li>
+                    <li><a href="#service" data-aos="fade-right" data-aos-delay="800"  onclick="closeMenu()">Service</a></li>
+                    <li><a href="indexcv.html" data-aos="fade-right" data-aos-delay="1200"  onclick="closeMenu()">Resume</a></li>
             </div>
-         </div>
-         <div class="dropdown ">
-            <li><a href="#con">About Me</a></li>
-            <li><a href="#con2">My work</a></li>
-            <li><a href="#serve">Service</a></li>
-            <li><a href="cv.html">Resume</a></li>
-            <li><a href="#contact" class="action_btn">Contact me</a></li>
-         </div>
-      </header>
-      <main class="content">
+            <a onclick="closeMenu(); location.href='#contact'" class="action_btn">Contact me</a>
+            <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </nav>
+           
+    </header> -->
+
+    <main class="content">
         <section id="head">
             <h3 data-aos="fade-right" data-aos-delay="1700">Hi, I'm Sajid and</h3>
             <h2><span data-aos="fade-right" data-aos-delay="2000">welcome to my</span><span class="folio" data-aos="fade-zoom" data-aos-delay="2300"> PORTFOLIO</span></h2>
@@ -283,7 +300,8 @@
             </div>
         </section>
 
-   </main>
+    </main>
+
     <footer>
         <div class="footer">
             <ul>
@@ -306,23 +324,23 @@
             easing: "ease-in-out",  // Smoother transition
             once: true  // Run animation only once
         });
-   </script>
-   <script>
-      const togglebtn = document.querySelector('.toggle_btn')
-      const togglebtnicon = document.querySelector('.toggle_btn i')
-      const dropdownmenu = document.querySelector('.dropdown')
-      togglebtn.onclick = function () {
-         dropdownmenu.classList.toggle('open')
-         const isopen = dropdownmenu.classList.contains('open')
+    </script>
 
-         togglebtnicon = isopen
+    <script>
+        const togglebtn = document.querySelector('.toggle_btn')
+        const togglebtnicon = document.querySelector('.toggle_btn i')
+        const dropdownmenu = document.querySelector('.dropdown')
+        togglebtn.onclick = function () {
+        dropdownmenu.classList.toggle('open')
+        const isopen = dropdownmenu.classList.contains('open')
+
+        togglebtnicon = isopen
             ? 'fa-solid fa-xmark' :
             'fa-solid fa-bars'
-      }
-   </script>
+        }
+    </script>
+    
 
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
