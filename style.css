@@ -1,7 +1,3 @@
-@font-face {
-    font-family: myfont;
-    src: url(images/neoreby/Neoreby.otf);
-}
 
 
 * {
@@ -127,9 +123,10 @@ body {
 
 .navbar .brand {
         font-size: 2rem;
-        font-family: myfont;
-        color: #d494ee;
-        font-weight: 200;      
+         font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+        color: #d494ee;   
 }
 
 /* TITLE */
